@@ -8,14 +8,16 @@
     <name>Word-blacklist</name>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor email="support@yourcompany.com" url="https://www.yourcompany.com">YourCompany</vendor>
+    <vendor email="dominiquebr46@gmail.com" url="https://www.dominiqueboerner.me">Dominique Börner</vendor>
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
-    Enter short description for your plugin here.<br>
-    <em>most HTML tags may be used</em>
+    <p>The Word Blacklist Plugin helps you maintain code quality by allowing you to
+    blacklist specific words or phrases in your project.
+    Once added to the blacklist, the plugin highlights occurrences of these words in your code,
+    comments, or documentation, helping you avoid unwanted terms and ensuring consistency.</p>
   ]]></description>
 
     <!-- Product and plugin compatibility requirements.
@@ -36,6 +38,6 @@
                 displayName="Forbidden word"
                 groupName="Word Blacklist"
                 enabledByDefault="true"
-                implementationClass="com.dominiqueboerner.wordblacklist.WordBlacklistInspection" />
+                implementationClass="com.dominiqueboerner.wordblacklist.WordBlacklistInspection"/>
     </extensions>
 </idea-plugin>
